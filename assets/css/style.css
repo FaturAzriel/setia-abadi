@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display:flex; 
+    flex-direction:column; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/* DEFAUUUUUUUUUUUUUULT */
+.text-danger {
+    color: #EA3356;
+}
+
+.text-dark {
+    color: #2C2B29;
+}
+
+.bg-danger {
+    background-color: #EA3356 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 24px;
+    color: #EA3356 !important;
+}
+
+/* HEADERRRRRRRRRRRRRRRRR */
+.navbar-brand {
+    padding: 10px 0px 20px 0px;
+}
+.navbar-brand h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.navbar-brand small {
+    position: absolute;
+}
+
+.navbar-brand .text-muted {
+    font-size: 12px;
+}
+
+.navbar-nav p {
+    font-size: 14px;
+}
+
+/* NAV MENUUUUUUUUUUUUUU */
+.nav-menu li a{
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+/* CAROUSEEEEEEEEEEEELL */
+.carousel-fit {
+    width: 100% !important;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* PRODUUUUUUUUUUUUCCTT */
+.section-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card .card-fit {
+    width: 100% !important;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card .card-link {
+    text-align: center;
+    background-color: #EA3356;
+    padding: 5px;
+}
+
+.card .card-link a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* ABOUUUUUUUUUUUUUUUTT */
+.about {
+    background-color: #EA3356;
+    padding: 30px 0px;
+    color: #FFFFFF;
+}
+
+.about p {
+    font-size: 14px;
+}
+
+/* FOOTEEEEEEEEEEEEEEERR */
+.footer hr {
+    background-color: #EA3356;
+    height: 1px;
+}
+
+.footer .nav-link {
+    color: #2C2B29;
+    font-size: 12px;
+}
+
+.footer {
+    margin-top:auto; 
+    text-align: center;
+    font-size: 12px;
+}
+
+@media(min-width: 991px) {
+    .menu-nav {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .contact-nav {
+        display: none;
+    }
+}
+
+
+
+/* DETAIL POST */
+.breadcrumb {
+    background-color: #FFFFFF !important;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #EA3356 !important;
+}
