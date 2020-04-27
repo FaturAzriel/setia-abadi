@@ -23,6 +23,11 @@ body {
     background-color: #EA3356 !important;
 }
 
+.btn-danger {
+    background-color: #EA3356 !important;
+    border-color: #EA3356 !important;
+}
+
 .navbar-toggler {
     border: none;
     font-size: 24px;
@@ -30,6 +35,9 @@ body {
 }
 
 /* HEADERRRRRRRRRRRRRRRRR */
+.navbar {
+    margin-top: 0px;
+}
 .navbar-brand {
     padding: 10px 0px 20px 0px;
 }
@@ -123,6 +131,9 @@ body {
     .menu-nav {
         display: none;
     }
+    .small-head {
+        display: none;
+    }
 }
 
 @media(max-width: 991px) {
@@ -143,4 +154,31 @@ body {
 
 .breadcrumb a {
     color: #EA3356 !important;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.btn {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.btn i {
+    font-size: 16px;
+}
+
+.special-p {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* GALLERY */
+img.zoom {
+    border-radius: 5px;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
 }
